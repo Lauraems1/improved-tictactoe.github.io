@@ -1,3 +1,21 @@
+# Titulo: Improved Tictactoe
+
+## Summary:
+The project was to create a Tictactoe game, in which one of the players would enter Xs and the other one would enter Os alternatively in a 3X3 boxes' board (one X or O per each box). The winner would be the player who could form a 3-tik straight line. The turn of the next player and finally the winner woud be indicated at the botton of the board.
+
+## Image
+
+<img src="/src/Captura_19112024.png" width= '300'/>
+
+## Roadmap of Future Improvements
+
+Name one or two features you’d like to implement
+* Use only one line of text to indicate below the tictactoe board both: who the next player is and who wins
+* Turn green the boxes of the winning tiks' line
+How would you implement those features? Write 2–3 sentences per feature
+* I may use React.useState to state status and setStatus. Status would be Next Player until the player fulfil the condition to become a winner.
+* I may use React.useState and useEffect to identify which boxes have been ticked and whether their combination at certain point fulfils the condition to win. Then, these last three boxes would turn green.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
