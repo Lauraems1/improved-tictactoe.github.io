@@ -12,6 +12,7 @@ The project was to create a Tictactoe game, in which one of the players would en
 Name one or two features you’d like to implement
 * Use only one line of text to indicate below the tictactoe board both: who the next player is and who wins
 * Turn green the boxes of the winning tiks' line
+
 How would you implement those features? Write 2–3 sentences per feature
 * I may use React.useState to state status and setStatus. Status would be Next Player until the player fulfil the condition to become a winner.
 * I may use React.useState and useEffect to identify which boxes have been ticked and whether their combination at certain point fulfils the condition to win. Then, these last three boxes would turn green.
